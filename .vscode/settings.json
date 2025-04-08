@@ -17,5 +17,11 @@
       "name": "latexmk (build)",
       "tools": ["latexmk (build)"]
     }
+  ],
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.rootFile.useSubFile": false,
+  "latex-workshop.latex.rootFile.doNotPrompt": true,
+  "latex-workshop.latex.rootFile.pattern": [
+    "main.tex"
   ]
 }
