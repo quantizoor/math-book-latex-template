@@ -1,0 +1,21 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk (build)",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "-outdir=build",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (build)",
+      "tools": ["latexmk (build)"]
+    }
+  ]
+}
